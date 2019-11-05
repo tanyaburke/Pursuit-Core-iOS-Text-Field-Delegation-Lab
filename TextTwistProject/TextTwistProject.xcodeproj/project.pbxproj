@@ -14,6 +14,7 @@
 		CD00BF042370FAFF0050736B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD00BF032370FAFF0050736B /* Assets.xcassets */; };
 		CD00BF072370FAFF0050736B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD00BF052370FAFF0050736B /* LaunchScreen.storyboard */; };
 		CD00BF122370FAFF0050736B /* TextTwistProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00BF112370FAFF0050736B /* TextTwistProjectTests.swift */; };
+		CDA1C53223713F2000FCD1AB /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1C53123713F2000FCD1AB /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CD00BF0D2370FAFF0050736B /* TextTwistProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTwistProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD00BF112370FAFF0050736B /* TextTwistProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTwistProjectTests.swift; sourceTree = "<group>"; };
 		CD00BF132370FAFF0050736B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA1C53123713F2000FCD1AB /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CD00BEFC2370FAFD0050736B /* SceneDelegate.swift */,
 				CD00BEFE2370FAFD0050736B /* ViewController.swift */,
 				CD00BF002370FAFD0050736B /* Main.storyboard */,
+				CDA1C53123713F2000FCD1AB /* Word.swift */,
 				CD00BF032370FAFF0050736B /* Assets.xcassets */,
 				CD00BF052370FAFF0050736B /* LaunchScreen.storyboard */,
 				CD00BF082370FAFF0050736B /* Info.plist */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD00BEFF2370FAFD0050736B /* ViewController.swift in Sources */,
+				CDA1C53223713F2000FCD1AB /* Word.swift in Sources */,
 				CD00BEFB2370FAFD0050736B /* AppDelegate.swift in Sources */,
 				CD00BEFD2370FAFD0050736B /* SceneDelegate.swift in Sources */,
 			);
