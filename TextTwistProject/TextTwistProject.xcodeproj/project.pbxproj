@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		CD00BEFB2370FAFD0050736B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00BEFA2370FAFD0050736B /* AppDelegate.swift */; };
 		CD00BEFD2370FAFD0050736B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00BEFC2370FAFD0050736B /* SceneDelegate.swift */; };
-		CD00BEFF2370FAFD0050736B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00BEFE2370FAFD0050736B /* ViewController.swift */; };
+		CD00BEFF2370FAFD0050736B /* TextTwistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00BEFE2370FAFD0050736B /* TextTwistViewController.swift */; };
 		CD00BF022370FAFD0050736B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD00BF002370FAFD0050736B /* Main.storyboard */; };
 		CD00BF042370FAFF0050736B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD00BF032370FAFF0050736B /* Assets.xcassets */; };
 		CD00BF072370FAFF0050736B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD00BF052370FAFF0050736B /* LaunchScreen.storyboard */; };
 		CD00BF122370FAFF0050736B /* TextTwistProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00BF112370FAFF0050736B /* TextTwistProjectTests.swift */; };
+		CD00BF1D237124870050736B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00BF1C237124870050736B /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 		CD00BEF72370FAFD0050736B /* TextTwistProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTwistProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD00BEFA2370FAFD0050736B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD00BEFC2370FAFD0050736B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD00BEFE2370FAFD0050736B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD00BEFE2370FAFD0050736B /* TextTwistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTwistViewController.swift; sourceTree = "<group>"; };
 		CD00BF012370FAFD0050736B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD00BF032370FAFF0050736B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD00BF062370FAFF0050736B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		CD00BF0D2370FAFF0050736B /* TextTwistProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTwistProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD00BF112370FAFF0050736B /* TextTwistProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTwistProjectTests.swift; sourceTree = "<group>"; };
 		CD00BF132370FAFF0050736B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD00BF1C237124870050736B /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,8 @@
 			children = (
 				CD00BEFA2370FAFD0050736B /* AppDelegate.swift */,
 				CD00BEFC2370FAFD0050736B /* SceneDelegate.swift */,
-				CD00BEFE2370FAFD0050736B /* ViewController.swift */,
+				CD00BEFE2370FAFD0050736B /* TextTwistViewController.swift */,
+				CD00BF1C237124870050736B /* Word.swift */,
 				CD00BF002370FAFD0050736B /* Main.storyboard */,
 				CD00BF032370FAFF0050736B /* Assets.xcassets */,
 				CD00BF052370FAFF0050736B /* LaunchScreen.storyboard */,
@@ -200,7 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD00BEFF2370FAFD0050736B /* ViewController.swift in Sources */,
+				CD00BEFF2370FAFD0050736B /* TextTwistViewController.swift in Sources */,
+				CD00BF1D237124870050736B /* Word.swift in Sources */,
 				CD00BEFB2370FAFD0050736B /* AppDelegate.swift in Sources */,
 				CD00BEFD2370FAFD0050736B /* SceneDelegate.swift in Sources */,
 			);
