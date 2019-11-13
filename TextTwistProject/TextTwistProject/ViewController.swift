@@ -8,13 +8,36 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+
+
+class ViewController: UIViewController, UITextFieldDelegate {
+
+    @IBOutlet weak var scrambledWord: UILabel!
+    
+    @IBOutlet weak var enteredWord: UITextField!
+    
+    @IBOutlet weak var resetGame: UIButton!
+    
+    @IBOutlet weak var backgroundColor: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
+        Word.getRandomWord().scrambled
+        print(Word.getRandomWord().scrambled)
+        
+        
+        enteredWord.delegate = self
+//
+//        scrambledWord.text =
+//    }
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        if
+//
+//    }
+//
+//}
 
 }
-
+}
